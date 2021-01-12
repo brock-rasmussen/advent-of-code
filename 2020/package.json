@@ -1,0 +1,29 @@
+{
+  "name": "advent-of-code-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:lint": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ],
+    "root": true
+  },
+  "adventConfig": {
+    "year": " 2020",
+    "nameTemplate": "src/day{{num}}.js",
+    "templateFile": "../config/template.js"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "advent-of-code": "^5.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
