@@ -1,5 +1,5 @@
 {
-  "name": "advent-of-code-2015",
+  "name": "advent-of-code-2020",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,12 +17,11 @@
     "root": true
   },
   "adventConfig": {
-    "year": "2015",
+    "year": " 2021",
     "nameTemplate": "src/day{{num}}.js",
     "templateFile": "../config/template.js"
   },
   "devDependencies": {
-    "crypto-js": "^4.0.0",
     "standard": "^16.0.3"
   },
   "dependencies": {

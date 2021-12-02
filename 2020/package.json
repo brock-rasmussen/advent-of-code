@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:lint": "standard"
+    "test:lint": "standard",
+    "example:init": "npx advent init 1",
+    "example:run": "npx advent run 1 1 - < ./src/input01.txt"
   },
   "author": "",
   "license": "ISC",
